@@ -1,0 +1,17 @@
+<div class="panel">
+  <img [src]="artist?.image[3]['#text']"> 
+  <div class="info">
+      
+    <h1> {{ artist?.name }} </h1>
+    
+    <p>Ouvintes: #{{ artist?.stats?.listeners }}</p>
+    <p>Play Count: #{{ artist?.stats?.playcount }}</p>
+    <p>Publicado: {{ artist?.bio?.published}}</p>
+    <hr>
+    <br>
+    <p>
+      {{ artist?.bio?.summary | slice:0:300 }} ... <br>
+      Leia mais clicando <a [href]="artist?.url"> <strong>aqui</strong>  </a>
+    </p>
+  </div>
+</div>

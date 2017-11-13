@@ -1,0 +1,12 @@
+<div class="cards">
+  <div class="card">
+    <!-- busca a URL da imagem na API, a API que fornece deste jeito um pouco estranho, apenas adaptei para utilizar aqui -->
+    <img [src]="artist.image[3]['#text']" >
+    <div class="titulo">
+      <strong>{{ artist.name | uppercase }}</strong>
+      <div class="detalhes">
+        <a routerLink="/artist/{{ artist.name }}">Ver detalhes</a>
+      </div>
+    </div>
+  </div>    
+</div>

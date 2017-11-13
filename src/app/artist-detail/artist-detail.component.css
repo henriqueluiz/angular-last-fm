@@ -1,0 +1,47 @@
+a {
+  text-decoration: none;
+  color: white; 
+}
+
+h1 {
+  color: #ffc957;
+}
+.panel {
+  background: rgb(78, 63, 35);
+  background: linear-gradient(rgba(247, 244, 244, 0.4), rgba(0, 0, 0, 0.2));
+  
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  padding: 1%;
+  color: #fffbfb;
+
+  display: flex;
+  justify-content: center;
+}
+.panel img {
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+}
+
+.info {
+  width: 60%;
+  margin-left: 2%;
+  
+  text-align: justify;
+}
+
+@media screen and (max-width: 972px) {
+  .panel {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .info {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+

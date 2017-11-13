@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #2f073b; 
+  text-align: center;
+  padding: 7px;
+}
+
+nav a {
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 2) ), url("https://i.ytimg.com/vi/xbo6AVBdEE0/maxresdefault.jpg");
+  /* background-repeat: no-repeat; */
+  background-size:100%;
+  background-attachment: fixed;  
+}
